@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --color-red:#E3646E;
+  --color-purple:#BB72E9;
+  --color-blue:#3996DB;
+  --color-green:#82BC4F;
+  --color-yellow:#EABD5F;
+  --color-gray100:#E2E4E9;
+  --color-gray200:#C0C4CE;
+  --color-gray300:#878EA1;
+  --color--gray400:#292C34;
+  --color--gray500:#16181D;
+  --color--gray600:#0D0E11;
+
+  --font-family-text:"Maven Pro";
+  --font-family-tittle:"Asap";
+  --font-family-subtitle:"Inconsolata";
+  --h1:56px 120% bold ;
+  --h2:24px 120% bold ;
+  --h3:16px 120% bold ;
+  --subtittle:20px 120% ;
+  --text-md:16px 140% ;
+  --text-sm:14px 140% ;
+
+}
+
+a{
+  text-decoration: none;
+  color:inherit
+}
+
+h1, h2, h3{
+  color:inherit;
+
+}
+
+.grid{
+  display: grid;
+}
+
+.flex{
+  display:flex
+}

@@ -1,0 +1,46 @@
+body{
+  background-image: url(../assets/Images/Background_Intro.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  margin-block: 120px 183px;
+}
+
+
+.perfil-container{
+  display: grid;
+  place-items: center;
+  gap:10px;
+}
+
+.foto {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.borda{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: 2;
+}
+
+.icone{
+  grid-column: 1/3;
+  grid-row: 1/2;
+  z-index: 2;
+}
+
+
+
+#primary{
+  align-content: center;
+
+  a{
+    background-color: var(--color--gray400);
+    gap:16px;
+    border-radius: 16px;
+    
+    
+  }
+
+}
