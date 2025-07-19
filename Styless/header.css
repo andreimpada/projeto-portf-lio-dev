@@ -8,45 +8,139 @@ body{
 
 .perfil-container{
   display: grid;
-  /* place-items: center; */
+  place-items: center;
+  margin-bottom: 56px;
 }
 
 .foto {
-  align-self: center;
+  
   height: 87px;
   width:87px;
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 1/2;
+  z-index: 1;
 }
 
 .borda{
-  align-self: ;
+  position: relative;
   height: 96px;
   width:96px;
-  grid-column: 2/3;
+  grid-column: 1/3;
   grid-row: 1/2;
   z-index: 2;
+}
+
+.borda-img{
+  height: 100%;
+  width: 100%;
 }
 
 .icone{
-  height: 31px;
-  width:25px;
-  grid-column: 2/3;
-  grid-row: 1/2;
-  z-index: 2;
+  position: absolute;
+  height: 32px;
+  width:32px;  
+  bottom: -8px;
+  right: 0px;
+  z-index: 3;
 }
 
+.texto-central {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtittle{
+  font-size: 20px;
+  line-height: 120%;
+  font-family: var( --font-family-subtitle);
+  color: #C0C4CE;
+  padding-bottom: 8px;
+  font-size: 20px;
+
+}
+.nome-destaque{
+  color: #E3646E;
+}
+
+h1{
+  font-family: var(--font-family-tittle);
+  font-weight: bold;
+  line-height: 120%;
+  font-size: 56px;
+  color:#E2E4E9;
+}
+
+.text-sm{
+  margin-top: 20px;
+  font-family: var(--font-family-text);
+  line-height: 140%;
+  font-size: 14px;
+  color:#878EA1;
+  max-height: 68px;
+  max-width: 680px;
+  margin-bottom: 40px;
+}
 
 
 #primary{
-  align-content: center;
-
-  a{
-    background-color: var(--color--gray400);
-    gap:16px;
-    border-radius: 16px;
-    
-    
-  }
-
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 16px;
+  
 }
+
+#primary > div:nth-child(2) img {
+  filter: invert(56%) sepia(77%) saturate(2133%) hue-rotate(315deg) brightness(93%) contrast(90%);
+}
+
+#primary > div:nth-child(3) img {
+  filter: invert(66%) sepia(43%) saturate(5465%) hue-rotate(180deg) brightness(92%) contrast(85%);
+}
+
+#primary > div:nth-child(4) img {
+  filter: invert(76%) sepia(47%) saturate(490%) hue-rotate(352deg) brightness(96%) contrast(91%);
+}
+
+#primary > div:nth-child(5) img {
+  filter: invert(79%) sepia(65%) saturate(4771%) hue-rotate(179deg) brightness(85%) contrast(103%);
+}
+
+#primary > div:nth-child(6) img {
+  filter: invert(61%) sepia(77%) saturate(316%) hue-rotate(49deg) brightness(97%) contrast(86%); 
+}
+
+.tagcontent{
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #292C34;
+  padding: 8px 16px;
+  border-radius: 50px;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 140%;
+  color: #C0C4CE;  
+  font-family: var(--font-family-text);
+}
+
+.setabaixo{
+  margin-top: 94px;  
+  width: 34px;
+  height: 34px;
+  /* falta colocar cor aqui <<<<<<<<<<<<<<<<<<<<<<---------- */
+}
+
+
+
+
+/* @media(max-width:768px){ */
+  /* .texto-central{padding: 10px;} */
+  /* .subtittle{} */
+  /* .nome-destaque{} */
+  /* h1{} */
+  /* .text-sm{} */
+  
+
+/* } */
