@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #16181D;
+    margin-top: 72px;
+}
+
+.tittlemd{
+    font-family: "Asap";
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: bold;
+    color:#E2E4E9;
+    margin-top: 8px;
+    margin-bottom: 56px;
+}
