@@ -1,0 +1,73 @@
+.services{
+  background-color: #0D0E11;
+  height: 480px;
+  width: auto;
+  padding-block: 88px 120px;
+}
+
+.text-service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.services h1{
+  font-family: var( --font-family-subtitle);
+  font-size:20px;
+  line-height: 120%;
+  color: #E3646E;
+  margin-bottom: 8px;
+}
+
+.text-service p{
+  font-family: "Asap";
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: bold;
+  color: #E2E4E9;
+  margin-bottom: 56px;
+}
+
+.tags-service{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px; 
+}
+
+.tag{
+  border: 1px solid #16181D ; 
+  border-radius: 12px;
+  padding:20px
+
+}
+
+.tag h3{
+  font-family: "asap";
+  font-size: 16px;
+  line-height: 120%;
+  font-weight: bold;
+  color: #E2E4E9;
+  padding-top: 20px;
+  padding-bottom: 8px;
+}
+
+.tag p {
+  font-family: "Maven pro";
+  font-size: 14px;
+  line-height: 140%;
+  color: #C0C4CE;
+
+}
+
+.tags-service .tag:nth-child(1) img {
+filter: invert(55%) sepia(16%) saturate(3002%) hue-rotate(229deg) brightness(97%) contrast(87%);
+}
+.tags-service .tag:nth-child(2) img {
+filter: brightness(0) saturate(100%) invert(98%) sepia(29%) saturate(5756%) hue-rotate(314deg) brightness(102%) contrast(84%);
+}
+
+.tags-service .tag:nth-child(3) img {
+filter: brightness(0) saturate(100%) invert(63%) sepia(53%) saturate(439%) hue-rotate(49deg) brightness(97%) contrast(84%);
+}

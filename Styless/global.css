@@ -29,16 +29,4 @@ a{
   color:inherit
 }
 
-h1, h2, h3{
-  color:inherit;
-
-}
-
-.grid{
-  display: grid;
-}
-
-.flex{
-  display:flex
-}
 
