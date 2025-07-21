@@ -106,19 +106,19 @@ h1{
 }
 
 #primary > div:nth-child(3) img {
-  filter: invert(66%) sepia(43%) saturate(5465%) hue-rotate(180deg) brightness(92%) contrast(85%);
+  filter: brightness(0) saturate(100%) invert(58%) sepia(43%) saturate(3771%) hue-rotate(180deg) brightness(94%) contrast(81%);
 }
 
 #primary > div:nth-child(4) img {
-  filter: invert(76%) sepia(47%) saturate(490%) hue-rotate(352deg) brightness(96%) contrast(91%);
+  filter: brightness(0) saturate(100%) invert(75%) sepia(48%) saturate(476%) hue-rotate(355deg) brightness(96%) contrast(90%);
 }
 
 #primary > div:nth-child(5) img {
-  filter: invert(79%) sepia(65%) saturate(4771%) hue-rotate(179deg) brightness(85%) contrast(103%);
+  filter: brightness(0) saturate(100%) invert(72%) sepia(39%) saturate(6736%) hue-rotate(180deg) brightness(91%) contrast(88%);
 }
 
 #primary > div:nth-child(6) img {
-  filter: invert(61%) sepia(77%) saturate(316%) hue-rotate(49deg) brightness(97%) contrast(86%); 
+  filter: brightness(0) saturate(100%) invert(68%) sepia(29%) saturate(728%) hue-rotate(49deg) brightness(93%) contrast(92%);
 }
 
 .tagcontent{
