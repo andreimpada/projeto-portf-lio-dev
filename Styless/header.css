@@ -1,8 +1,4 @@
 body{
-  /* background-image: url(../assets/Images/Background_Intro.png); */
-  /* background-size: cover; */
-  /* height: 100%; */
-  /* margin-block: 120px 183px; */
   background-color: #16181D;
 }
 
@@ -22,9 +18,8 @@ header{
 .perfil-container{
   display: grid;
   place-items: center;
-  /* margin-bottom: 56px; */
-  margin-top: 170px;
-  gap: ;
+  margin-bottom: 56px;
+  margin-top: 120px;
 }
 
 .foto {
