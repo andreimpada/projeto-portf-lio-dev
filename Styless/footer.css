@@ -1,14 +1,13 @@
-.contatos{
+.contatos{  
   background-image: url(../assets/Images/Background_Contacts.png);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover;
   height: 787px;
   width: 100%;
-  margin-top: 128px;
 
   display: grid;
   place-items: center;
+  grid-template-rows: auto;
+
 }
 
 .texto-contatos{
@@ -16,9 +15,10 @@
   flex-direction: column;
   align-items: center;
   gap: 8px;
+
 }
 
-.texto-contatos span{
+.contatofinal{
   font-family: "inconsolata";
   font-size: 20px;
   line-height: 120%;
@@ -32,6 +32,7 @@
   line-height: 120%;
   font-weight: bold;
   color: #E2E4E9;
+
 }
 
 .texto-contatos p{
@@ -39,5 +40,57 @@
   font-size: 16px;
   line-height: 140%;
   color: #C0C4CE;
+  margin-bottom:48px ;
 
+}
+
+.colunafinal{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;  
+
+}
+
+.tagcolunafinal{
+  display:flex;
+  align-items: center;
+  background-color: #292C34;
+  border-radius: 8px;
+  width: 400px;
+  height: 68px;
+  justify-content: space-between;
+
+}
+
+.tagcolunafinal:hover{
+  border: 2px solid #3996db;
+
+}
+
+.tagcolunafinal a{
+  font-family: "Maven Pro";
+  font-size: 16px;
+  line height: 140%;
+  color:#C0C4CE;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+
+}
+
+.tagcolunafinal img{
+  margin-left: 20px;
+
+}
+
+.tagcolunafinal img:last-child {
+  margin-right: 20px;
+  filter: brightness(0) saturate(100%) invert(51%) sepia(72%) saturate(847%) hue-rotate(180deg) brightness(90%) contrast(89%);
+
+}
+
+.tagcolunafinal a img {
+  filter: brightness(0) saturate(100%) invert(61%) sepia(12%) saturate(424%) hue-rotate(186deg) brightness(90%) contrast(92%);
+  
 }
